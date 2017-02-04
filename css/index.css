@@ -1,0 +1,11 @@
+nav .brand-logo{
+  color: green;
+}
+
+nav ul a{
+  color: green;
+}
+
+.parallax-container {
+  height: 400px;
+}
