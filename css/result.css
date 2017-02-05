@@ -1,0 +1,17 @@
+nav .brand-logo{
+  color: green;
+}
+
+nav ul a{
+  color: green;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    min-height: 800px;
+    }

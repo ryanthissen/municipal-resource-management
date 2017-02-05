@@ -3,12 +3,71 @@
   <head>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
-    <link type="text/css" rel="stylesheet" href="css/results.css">
+    <link type="text/css" rel="stylesheet" href="css/result.css">
     <meta charset="utf-8">
     <title>Search Results</title>
   </head>
   <body>
+    <nav class="nav white">
+      <div class="nav-wrapper">
+        <a href="index.html" class="center brand-logo">Municipal Resource Management</a>
+        <ul class="right">
+            <a href="#" class="dropdown-button" data-activates="dropdown1">Select a City<i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="results.html">Berkeley, CA</a></li>
+              <li><a href="">More coming soon!</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row section">
+      <div class="col s4">
+        <div class="row">
+          <div class="input-field col s11">
+            <select>
+              <option value="" selected disabled>Choose which City to search by:</option>
+              <option value="Berkeley, CA">Berkeley, CA</option>
+            </select>
+          </div>
+          <div class="input-field col s11">
+            <select multiple>
+              <option value="" selected disabled>Choose which Department(s) to search by:</option>
+              <option value="Animal Shelter">Animal Shelter</option>
+              <option value="HHCS">Health, Housing & Community Services</option>
+              <option value="Libraries">Libraries</option>
+              <option value="PRW">Parks, Recreation & Waterfront</option>
+              <option value="Planning">Planning</option>
+              <option value="Public Safety">Public Safety</option>
+              <option value="PW">Public Works</option>
+              <option value="Other">Other</option>
+            </select>
+            <label>Search by Department</label>
+          </div>
+          <div class="input-field col s11">
+            <select multiple>
+              <option value="" selected disabled>Choose which resource(s) to search by:</option>
+              <option value="annual_elec_kwh">Energy</option>
+              <option value="annual_water_gallons">Water</option>
+            </select>
+          </div>
+          <div class="col s11 center">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Search<i class="material-icons right">search</i> </button>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="flex-item">
+            <p>This is a test flex item.</p>
+          </div>
+          <div class="flex-item">
+            <p>this is also a test flex item.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s8">
 
+      </div>
+    </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>

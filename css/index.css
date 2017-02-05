@@ -6,6 +6,11 @@ nav ul a{
   color: green;
 }
 
-.parallax-container {
-  height: 400px;
+.parallax-container{
+  height: 500px;
+}
+
+.hero-text{
+  font-size: 1.5em;
+  color: green
 }
