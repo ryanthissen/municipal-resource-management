@@ -14,4 +14,9 @@ nav ul a{
     align-content: stretch;
     align-items: flex-start;
     min-height: 800px;
-    }
+}
+
+.map {
+  height: 480px;
+  width: 720px
+}
