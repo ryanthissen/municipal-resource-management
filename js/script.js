@@ -5,7 +5,6 @@ $(document).ready(function() {
 });
 let objArr = [];
 let jsonForm = document.getElementById('url-form');
-let flexContainer = document.getElementById('flex-container');
 let collapsible = document.getElementsByClassName('collapsible')[0];
 let searchedResource = [];
 
