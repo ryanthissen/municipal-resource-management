@@ -220,8 +220,11 @@ function drawChart() {
       [deptObj[department], energyObj[department]],
       ['Current Facility', kwh]
     ]);
+    let options = {
+      'title':`${deptObj[department]} Energy Usage in Berkeley, CA`
+    }
     var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-    chart.draw(data, null);
+    chart.draw(data, options);
   }
   else {
     let data = new google.visualization.DataTable();
@@ -232,7 +235,10 @@ function drawChart() {
       [deptObj[department], waterObj[department]],
       ['Current Facility', kwh]
     ]);
+    let options = {
+      'title':`${deptObj[department]} Water Usage in Berkeley, CA`
+    }
     var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-    chart.draw(data, null);
+    chart.draw(data, options);
   }
 }

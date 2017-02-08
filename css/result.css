@@ -21,11 +21,10 @@ nav ul a{
   width: 100%
 }
 
-/*#scroll {
-  height: 500px;
-  overflow: scroll;
-}*/
-
+.scroll-div {
+  height: 495px;
+  overflow: scroll
+}
 
 .bold {
   font-weight: bold;
