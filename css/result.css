@@ -16,7 +16,7 @@ nav ul a{
     min-height: 800px;
 }
 
-.map {
-  height: 480px;
-  width: 720px
+#map {
+  height: 440px;
+  width: 100%
 }
