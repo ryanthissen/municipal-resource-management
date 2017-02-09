@@ -214,7 +214,7 @@ function drawChart() {
   }
 
   let facilityType = document.getElementsByClassName('active')[3];
-  console.log(facilityType.attributes);
+  // console.log(facilityType.attributes);
   let department = facilityType.attributes[3].nodeValue;
   let kwh = (facilityType.attributes[4].nodeValue * 1);
   if (searchedResource[0] === "annual_elec_kwh") {
