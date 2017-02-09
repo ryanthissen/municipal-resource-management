@@ -53,3 +53,7 @@ html {
 #dropdown-text {
   font-size: 1.4em;
 }
+
+.bold {
+  font-weight: bold;
+}
