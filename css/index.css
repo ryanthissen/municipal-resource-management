@@ -23,10 +23,11 @@ html {
   padding: 0  36px;
 }
 
-#hero-search {
+.btn-flat {
   font-size: 2.25em;
-  color: black;
-  text-decoration: underline;
+  text-transform: none;
+  /*color: black;
+  text-decoration: underline;*/
 }
 
 #nav-logo {
