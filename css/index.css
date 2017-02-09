@@ -1,9 +1,9 @@
 nav .brand-logo{
-  color: green;
+  color: black;
 }
 
 nav ul a{
-  color: green;
+  color: black;
 }
 
 .parallax-container{
@@ -12,5 +12,13 @@ nav ul a{
 
 .hero-text{
   font-size: 1.5em;
-  color: green
+  color: black
+}
+
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+.dropdown-button {
+  padding: 0  36px;
 }

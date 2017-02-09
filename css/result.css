@@ -1,11 +1,15 @@
 nav .brand-logo{
-  color: green;
+  color: black;
 }
 
 nav ul a{
-  color: green;
+  color: black;
 }
 
+.dropdown-button {
+  padding: 0  36px;
+}
+/*
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -14,7 +18,7 @@ nav ul a{
     align-content: stretch;
     align-items: flex-start;
     min-height: 800px;
-}
+}*/
 
 #map {
   height: 550px;
@@ -26,11 +30,19 @@ nav ul a{
   overflow: scroll
 }
 
-.bold {
-  font-weight: bold;
+.light {
+  font-weight: 100;
 }
 
 #chart_div {
   height: 200px;
   width: 100%
 }
+
+.collapsible-header {
+  /*background-color: lightgrey;*/
+}
+
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }

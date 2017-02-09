@@ -8,6 +8,12 @@ let jsonForm = document.getElementById('url-form');
 let collapsible = document.getElementsByClassName('collapsible')[0];
 let searchedResource = [];
 
+jsonForm.addEventListener('reset', function(event) {
+  event.preventDefault();
+  location.reload();
+});
+
+
 jsonForm.addEventListener('submit', function(event) {
   event.preventDefault();
   const url = `https://data.cityofberkeley.info/resource/fe5b-yv79.json?$where=${document.getElementById('select-resource').value} > 0&department=${document.getElementById('select-dept').value}`;
@@ -82,9 +88,9 @@ jsonForm.addEventListener('submit', function(event) {
         let br = document.createElement("br")
         let newLi = document.createElement("li");
         let newHead = document.createElement("div");
-        newHead.setAttribute("class", "collapsible-header bold")
+        newHead.setAttribute("class", "collapsible-header")
         let newBody = document.createElement("div");
-        newBody.setAttribute("class", "collapsible-body")
+        newBody.setAttribute("class", "collapsible-body light")
         let headContent = document.createTextNode(sortedObjArr[i].site_name)
 
         if (sortedObjArr[0].kwh) {
@@ -168,7 +174,7 @@ function placeMarkerAndPanTo(latLng, map) {
     map: map
   });
   map.panTo(latLng);
-  map.setZoom(14);
+  map.setZoom(15);
 }
 
 
