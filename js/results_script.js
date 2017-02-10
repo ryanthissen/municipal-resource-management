@@ -97,7 +97,7 @@ jsonForm.addEventListener('submit', function(event) {
           // console.log(sortedObjArr[i]);
           let bodyContent1 = document.createTextNode('Address:  ' + sortedObjArr[i].address);
           let bodyContent2 = document.createTextNode('Energy Usage:  ' + (sortedObjArr[i].kwh * 1).toLocaleString() + ' kwh');
-          let bodyContent3 = document.createTextNode('Year of use:  ' + sortedObjArr[i].year);
+          let bodyContent3 = document.createTextNode('Data from year:  ' + sortedObjArr[i].year);
           if (sortedObjArr[i].latitude) {
             newHead.setAttribute('data-latitude', sortedObjArr[i].latitude);
             newHead.setAttribute('data-longitude', sortedObjArr[i].longitude);
@@ -119,7 +119,7 @@ jsonForm.addEventListener('submit', function(event) {
           let bodyContent1 = document.createTextNode('Address:  ' + sortedObjArr[i].address);
           let bodyContent2 = document.createTextNode('Water Usage:  ' + (sortedObjArr[i].gallons * 1).toLocaleString() + ' gallons');
           let bodyContent3 = document.createTextNode('Annual Cost of Water:  $' + (sortedObjArr[i].cost *1).toLocaleString());
-          let bodyContent4 = document.createTextNode('Year of use:  ' + sortedObjArr[i].year);
+          let bodyContent4 = document.createTextNode('Data from year:  ' + sortedObjArr[i].year);
           if (sortedObjArr[i].latitude) {
             newHead.setAttribute('data-latitude', sortedObjArr[i].latitude);
             newHead.setAttribute('data-longitude', sortedObjArr[i].longitude);

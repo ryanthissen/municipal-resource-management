@@ -21,7 +21,7 @@ nav ul a{
 }*/
 
 #map {
-  height: 550px;
+  height: 62vh;
   width: 100%
 }
 
@@ -35,7 +35,7 @@ nav ul a{
 }
 
 #chart_div {
-  height: 200px;
+  height: 22vh;
   width: 100%
 }
 
@@ -57,3 +57,11 @@ html {
 .bold {
   font-weight: bold;
 }
+
+/*.main-viewport {
+  height: : 95vh;
+}*/
+
+/*.map-viewport {
+  height: 70%;
+}*/

@@ -49,3 +49,7 @@ html {
 #black-text2 {
   color: black;
 }
+
+.main-viewport {
+  max-height: : 95vh;
+}
