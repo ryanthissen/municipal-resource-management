@@ -139,7 +139,6 @@ jsonForm.addEventListener('submit', function(event) {
           collapsible.appendChild(newLi);
         }
       }
-    $(".collapsible li:first .collapsible-header").addClass("active");
   });
 });
 
@@ -149,6 +148,7 @@ function initMap() {
     zoom: 13,
     center: berkeley
   });
+  $(".collapsible li:first .collapsible-header").addClass("active");
   $('.collapsible').collapsible({
       accordion: false,
       onOpen: function(el) {
@@ -156,8 +156,6 @@ function initMap() {
         drawChart();
       },
   });
-  $(".collapsible li:first .collapsible-header").addClass("active");
-  $('.collapsible').collapsible();
 }
 
 function zoomMarker(map) {
