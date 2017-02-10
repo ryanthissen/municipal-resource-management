@@ -140,7 +140,6 @@ jsonForm.addEventListener('submit', function(event) {
         }
       }
     $(".collapsible li:first .collapsible-header").addClass("active");
-    $('.collapsible').collapsible();
   });
 });
 
