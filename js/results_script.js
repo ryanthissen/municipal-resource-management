@@ -139,6 +139,8 @@ jsonForm.addEventListener('submit', function(event) {
           collapsible.appendChild(newLi);
         }
       }
+    $(".collapsible li:first .collapsible-header").addClass("active");
+    $('.collapsible').collapsible();
   });
 });
 
@@ -155,6 +157,8 @@ function initMap() {
         drawChart();
       },
   });
+  $(".collapsible li:first .collapsible-header").addClass("active");
+  $('.collapsible').collapsible();
 }
 
 function zoomMarker(map) {

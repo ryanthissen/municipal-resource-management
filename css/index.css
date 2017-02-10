@@ -23,11 +23,11 @@ html {
   padding: 0  36px;
 }
 
-.btn-flat {
+.search {
   font-size: 2.25em;
   text-transform: none;
-  /*color: black;
-  text-decoration: underline;*/
+  background-color: white;
+  color: black;
 }
 
 #nav-logo {
