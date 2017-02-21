@@ -3,6 +3,7 @@ $(document).ready(function() {
   $('.parallax').parallax();
   google.charts.load('current', {packages: ['corechart']});
 });
+// import 'whatwg-fetch';
 let objArr = [];
 let jsonForm = document.getElementById('url-form');
 let collapsible = document.getElementsByClassName('collapsible')[0];

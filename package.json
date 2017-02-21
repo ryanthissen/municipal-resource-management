@@ -1,0 +1,23 @@
+{
+  "name": "q1_project",
+  "version": "1.0.0",
+  "description": "Municipal Resource Management",
+  "main": "index.js",
+  "dependencies": {
+    "whatwg-fetch": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanthissen/q1_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanthissen/q1_project/issues"
+  },
+  "homepage": "https://github.com/ryanthissen/q1_project#readme"
+}
