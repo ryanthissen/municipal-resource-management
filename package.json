@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryanthissen/q1_project.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ryanthissen/q1_project/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/ryanthissen/q1_project#readme"
+  "homepage": "https://ryanthissen.github.io/q1_project"
 }
