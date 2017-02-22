@@ -4,7 +4,6 @@
   "description": "Municipal Resource Management",
   "main": "index.js",
   "dependencies": {
-    "whatwg-fetch": "^2.0.2"
   },
   "devDependencies": {},
   "scripts": {
