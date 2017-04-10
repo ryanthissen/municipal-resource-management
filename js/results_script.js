@@ -225,7 +225,7 @@ function drawChart() {
     data.addRows([
       ['All Berkeley Municipal Facilities', 21251805],
       [deptObj[department], energyObj[department]],
-      ['Current Facility', kwh]
+      ['Selected Facility', kwh]
     ]);
     let options = {
       'title':`${deptObj[department]} Energy Usage in Berkeley, CA`
@@ -240,7 +240,7 @@ function drawChart() {
     data.addRows([
       ['All Berkeley Municipal Facilities', 67900282],
       [deptObj[department], waterObj[department]],
-      ['Current Facility', kwh]
+      ['Selected Facility', kwh]
     ]);
     let options = {
       'title':`${deptObj[department]} Water Usage in Berkeley, CA`
