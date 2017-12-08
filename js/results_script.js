@@ -8,6 +8,15 @@ let objArr = [];
 let jsonForm = document.getElementById('url-form');
 let collapsible = document.getElementsByClassName('collapsible')[0];
 let searchedResource = [];
+let searched = false;
+let submitButton = document.getElementById('submittal');
+let resetButton = document.getElementById('reset');
+
+// if (searched === true) {
+//   submitButton.classList.add("disabled")
+// } else {
+//   resetButton.classList.add("disabled")
+// }
 
 jsonForm.addEventListener('reset', function(event) {
   event.preventDefault();
@@ -141,6 +150,8 @@ jsonForm.addEventListener('submit', function(event) {
         }
       }
   });
+  resetButton.classList.toggle("disabled");
+  submitButton.classList.toggle("disabled");
 });
 
 function initMap() {
